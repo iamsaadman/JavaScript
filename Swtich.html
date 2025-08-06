@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case Example</title>
+</head>
+<body>
+    <script>
+        /*
+        ===============================
+        JavaScript switch Statement
+        ===============================
+
+        The switch statement is used to perform different actions
+        based on different conditions (similar to multiple if...else).
+
+        Syntax:
+        --------
+        switch(expression) {
+            case value1:
+                // Code to run if expression === value1
+                break;
+
+            case value2:
+                // Code to run if expression === value2
+                break;
+
+            ...
+
+            default:
+                // Code to run if no case matches
+        }
+
+        - 'break' is used to exit the switch block once a match is found.
+        - 'default' is optional and runs if no case matches.
+        */
+
+        // Example: User inputs a number 1 to 7 to get the day name
+        var dayNumber = prompt("Enter a number (1 to 7) for the day of the week:");
+        dayNumber = Number(dayNumber); 
+        switch (dayNumber) {
+            case 1:
+                console.log("Sunday");
+                break;
+            case 2:
+                console.log("Monday");
+                break;
+            case 3:
+                console.log("Tuesday");
+                break;
+            case 4:
+                console.log("Wednesday");
+                break;
+            case 5:
+                console.log("Thursday");
+                break;
+            case 6:
+                console.log("Friday");
+                break;
+            case 7:
+                console.log("Saturday");
+                break;
+            default:
+                console.log("Invalid input. Please enter a number from 1 to 7.");
+        }
+    </script>
+</body>
+</html>
