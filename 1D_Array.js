@@ -7,8 +7,10 @@ function highestScore(scores) {
        }
     }
 
-    return max;
-}
+    return max;}
+
+
+
 
 let scores = [21, 28, 1, 88, 15];
 var maxScore = highestScore(scores);
