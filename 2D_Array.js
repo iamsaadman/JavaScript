@@ -21,4 +21,5 @@ var playersInfo = [
   ["lu", 105],
 ];
 
-highestRunScorer(playersInfo);
+var name = highestRunScorer(playersInfo);
+console.log(name);

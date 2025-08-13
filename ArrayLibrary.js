@@ -29,3 +29,17 @@ console.log(names);
 
 var newArr= names.slice(1,2);
 console.log(newArr);
+console.log(names);
+
+
+var sortedName = names.sort();
+console.log(sortedNames);
+names.reverse();
+
+
+var number = [10,-2,33,-4,55];
+numbers.sort(function(a,b){
+    return b-a;
+});
+
+console.log(number);
